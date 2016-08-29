@@ -15,8 +15,8 @@ Or an youtube clip can be seen here: http://imgur.com/a/y3r2H
 
 2. In your `index.html` add:
 
-        <script src="lib/ionic-super-popup/ionic-super-popup.js"></script>
-        <link href="lib/ionic-super-popup/ionic-super-popup.css" rel="stylesheet">
+        <script src="lib/ionic-super-popup/dist/ionic-super-popup.js"></script>
+        <link href="lib/ionic-super-popup/dist/ionic-super-popup.css" rel="stylesheet">
      
 
 
