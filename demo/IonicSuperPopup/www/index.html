@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+
+    <script src="lib/ionic-super-popup/ionic-super-popup.js"></script>
+    <link href="lib/ionic-super-popup/ionic-super-popup.css" rel="stylesheet">
+    <!-- <link href="lib/ionic-super-popup/addon-theme/twitter/twitter.css" rel="stylesheet"> -->
+    <!-- <link href="lib/ionic-super-popup/addon-theme/facebook/facebook.css" rel="stylesheet"> -->
+    <!-- <link href="lib/ionic-super-popup/addon-theme/google/google.css" rel="stylesheet"> -->
+
+  </head>
+  <body ng-app="starter">
+
+    <ion-header-bar class="bar-stable">
+      <h1 class="title">Ionic Super Popup Demo</h1>
+    </ion-header-bar>
+    <ion-content ng-controller="MainCtrl">
+
+      <div class=" card list">
+        <div class="item item-divider">Basic Ionic Super Popups</div>
+        <div class="button-bar">
+          <button class="button button-block button-outline button-stable" ng-click="popup1()">With Header</button>
+
+          <button class="button button-block button-outline button-stable" ng-click="popup2()">Header and Text</button>
+        </div>
+      </div>
+      <div class=" card list">
+        <div class="item item-divider">Ionic Super Popup Types</div>
+        <div class="button-bar">
+          <button class="button button-outline button-block button-balanced" ng-click="popup3a()">Success
+          </button>
+
+          <button class="button button-outline button-block button-energized" ng-click="popup3b()">Warning
+          </button>
+
+          <button class="button button-outline button-block button-assertive" ng-click="popup3c()">Error
+          </button>
+        </div>
+      </div>
+
+      <div class=" card list">
+        <div class="item item-divider">Confirmation Ionic Super Popups</div>
+        <div class="button-bar">
+
+          <button class="button button-outline button-block  button-dark" ng-click="popup4()">w/ Success Popup</button>
+
+          <button class="button button-outline button-block  button-dark" ng-click="popup5()">W/ Success &amp; Cancel</button>
+        </div>
+        </div>
+
+        <div class=" card list">
+
+          <div class="item item-divider">Custom Ionic Super Popup</div>
+          <button class="button button-outline button-block  button-positive" ng-click="popup6()">Use custom image or gif</button>
+        </div>
+
+      </ion-content>
+
+    </body>
+  </html>
