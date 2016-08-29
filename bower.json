@@ -1,0 +1,23 @@
+{
+  "name": "ionic-super-popup",
+  "main": "ionic-super-popup.js",
+  "authors": [
+    "garrettmac <garrettmacmac@gmail.com>"
+  ],
+  "description": "a simple yet beautiful dialog popup",
+  "keywords": [
+    "ionic",
+    "ionic-super-popup",
+    "plugin"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/garrettmac/ionic-super-popup",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/lib",
+    "test",
+    "tests"
+  ]
+}
