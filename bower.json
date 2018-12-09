@@ -1,9 +1,6 @@
 {
   "name": "ionic-super-popup",
   "main": "ionic-super-popup.js",
-  "authors": [
-    "garrettmac <garrettmacmac@gmail.com>"
-  ],
   "description": "a simple yet beautiful dialog popup",
   "keywords": [
     "ionic",
